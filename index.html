@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - YouTube & Links</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Your Name - YouTube & Links">
+    <meta name="description" content="Content Creator & YouTuber. Subscribe and check out all my latest videos and links.">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="youtube, content creator, videos, subscribe, links">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/">
+    <meta property="og:title" content="Your Name - YouTube & Links">
+    <meta property="og:description" content="Content Creator & YouTuber. Subscribe and check out all my latest videos and links.">
+    <meta property="og:image" content="https://yourusername.github.io/preview.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourusername.github.io/">
+    <meta property="twitter:title" content="Your Name - YouTube & Links">
+    <meta property="twitter:description" content="Content Creator & YouTuber. Subscribe and check out all my latest videos and links.">
+    <meta property="twitter:image" content="https://yourusername.github.io/preview.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#FF0000">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #282828 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: #1a1a1a;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #FF0000;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .profile h1 {
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .profile p {
+            color: #aaaaaa;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-item {
+            display: block;
+            padding: 18px 24px;
+            background: #282828;
+            border: 2px solid #3a3a3a;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .link-item:hover {
+            background: #FF0000;
+            color: white;
+            border-color: #FF0000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+        }
+
+        .link-item.youtube {
+            background: #FF0000;
+            border-color: #FF0000;
+            font-weight: 600;
+        }
+
+        .link-item.youtube:hover {
+            background: #cc0000;
+            border-color: #cc0000;
+            box-shadow: 0 4px 16px rgba(255, 0, 0, 0.6);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 1px solid #3a3a3a;
+        }
+
+        .social-link {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: #282828;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #aaaaaa;
+            transition: all 0.3s ease;
+            font-size: 20px;
+        }
+
+        .social-link:hover {
+            background: #FF0000;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .profile h1 {
+                font-size: 24px;
+            }
+
+            .link-item {
+                padding: 16px 20px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-image">YT</div>
+            <h1>Your Channel Name</h1>
+            <p>Content Creator & YouTuber<br>Subscribe for weekly videos!</p>
+        </div>
+
+        <div class="links">
+            <a href="https://youtube.com/@yourchannel" class="link-item youtube">🎬 Subscribe to My YouTube Channel</a>
+            <a href="https://youtube.com/playlist?list=your-playlist-id" class="link-item">📺 Latest Video Series</a>
+            <a href="https://youtube.com/@yourchannel/shorts" class="link-item">⚡ YouTube Shorts</a>
+            <a href="https://example.com/merch" class="link-item">👕 Merch Store</a>
+            <a href="https://patreon.com/yourchannel" class="link-item">💝 Support on Patreon</a>
+            <a href="https://discord.gg/yourinvite" class="link-item">💬 Join Discord Community</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://twitter.com/yourusername" class="social-link" title="Twitter">𝕏</a>
+            <a href="https://github.com/yourusername" class="social-link" title="GitHub">⚡</a>
+            <a href="https://linkedin.com/in/yourusername" class="social-link" title="LinkedIn">in</a>
+            <a href="https://instagram.com/yourusername" class="social-link" title="Instagram">📷</a>
+        </div>
+    </div>
+</body>
+</html>
