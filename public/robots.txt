@@ -1,1 +1,12 @@
+# Allow all search engines to index main content
+User-agent: *
+# Disallow: /private/
+# Disallow: /assets/temp/
+Disallow: /scripts/
 
+# Allow Googlebot full access to everything else
+User-agent: Googlebot
+Disallow:
+
+# Sitemap location
+Sitemap:https://artechfuz3d.github.io/YoutubeLinks/sitemap.xml
